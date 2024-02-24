@@ -1,0 +1,26 @@
+nav {
+  display: flex;
+}
+.navigation {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #DDDDDD;
+
+
+  .navigation__wrapp {
+    display: flex;
+    justify-content: space-between;
+
+    .navigation__list {
+      display: flex;
+      gap: 60px;
+      color: $title;
+      font-size: 20px;
+
+      .navigation__list-box {
+        display: flex;
+        gap: 30px;
+      }
+    }
+  }
+}

@@ -1,0 +1,134 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body, p, h1, h2, h3, h4, h5, ul {
+  margin: 0;
+}
+
+h1, h2 {
+  color: #4C5866;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #85859B;
+}
+
+.container, .container-fluid {
+  padding-left: 100px;
+  padding-right: 110px;
+}
+
+nav {
+  display: flex;
+}
+
+.navigation {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #DDDDDD;
+}
+.navigation .navigation__wrapp {
+  display: flex;
+  justify-content: space-between;
+}
+.navigation .navigation__wrapp .navigation__list {
+  display: flex;
+  gap: 60px;
+  color: #4C5866;
+  font-size: 20px;
+}
+.navigation .navigation__wrapp .navigation__list .navigation__list-box {
+  display: flex;
+  gap: 30px;
+}
+
+.paper .roll {
+  padding-top: 60px;
+}
+.paper .information {
+  padding-top: 130px;
+}
+.paper .information h1 {
+  color: #4C5866;
+  font-size: 60px;
+  line-height: 1;
+}
+.paper .information p {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.paper .information button {
+  padding: 20px 90px;
+  font-size: 20px;
+  color: #7875FE;
+  background-color: #fff;
+  border: 1px solid #7875FE;
+  transition: 300ms;
+}
+.paper .information button:hover {
+  background-color: #7875FE;
+  color: #fff;
+}
+
+.whiteness {
+  padding-top: 90px;
+  background-color: #EBEBEB;
+}
+
+.ver1 {
+  background-image: url("public/v1.png");
+  border-top: 1px solid #c0c0c0;
+  padding: 37px 0 37px 190px;
+  background-position: left center;
+  background-size: 160px 118px;
+  background-repeat: no-repeat;
+}
+
+.ver2 {
+  background-image: url("public/v2.png");
+  border-top: 1px solid #c0c0c0;
+  padding: 37px 0 37px 190px;
+  background-position: left center;
+  background-size: 160px 118px;
+  background-repeat: no-repeat;
+}
+
+.ver3 {
+  background-image: url("public/v3.png");
+  border-top: 1px solid #c0c0c0;
+  padding: 37px 0 37px 190px;
+  background-position: left center;
+  background-size: 160px 118px;
+  background-repeat: no-repeat;
+}
+
+span {
+  color: #4C5866;
+}
+
+.ver4 {
+  padding-top: 90px;
+}
+
+.papers-text {
+  padding-top: 145px;
+}
+.papers-text h2 {
+  font-size: 40px;
+}
+.papers-text p {
+  line-height: 1.7;
+}
+
+/*# sourceMappingURL=style.css.map */

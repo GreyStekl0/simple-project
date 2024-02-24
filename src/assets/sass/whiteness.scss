@@ -1,0 +1,48 @@
+.whiteness {
+  padding-top: 90px;
+  background-color: #EBEBEB;
+}
+.ver1 {
+  background-image: url("public/v1.png");
+  border-top: 1px solid #c0c0c0;
+  padding: 37px 0 37px 190px;
+  background-position: left center;
+  background-size: 160px 118px;
+  background-repeat: no-repeat;
+}
+
+.ver2 {
+  background-image: url("public/v2.png");
+  border-top: 1px solid #c0c0c0;
+  padding: 37px 0 37px 190px;
+  background-position: left center;
+  background-size: 160px 118px;
+  background-repeat: no-repeat;
+}
+
+.ver3 {
+  background-image: url("public/v3.png");
+  border-top: 1px solid #c0c0c0;
+  padding: 37px 0 37px 190px;
+  background-position: left center;
+  background-size: 160px 118px;
+  background-repeat: no-repeat;
+}
+
+span {
+  color: $title
+}
+
+.ver4 {
+  padding-top: 90px;
+}
+
+.papers-text {
+  padding-top: 145px;
+  h2 {
+    font-size: 40px;
+  }
+  p {
+    line-height: 1.7;
+  }
+}
