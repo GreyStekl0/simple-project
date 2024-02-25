@@ -180,4 +180,30 @@ span {
   height: 135px;
 }
 
+.sketchbook .sketchbook__img {
+  padding-top: 90px;
+}
+.sketchbook .sketchbook__card {
+  padding-top: 114px;
+}
+.sketchbook .sketchbook__card h2 {
+  font-size: 40px;
+  color: #666666;
+}
+.sketchbook .sketchbook__card p {
+  padding-bottom: 30px;
+}
+.sketchbook .sketchbook__card button {
+  padding: 20px 90px;
+  font-size: 20px;
+  color: #7875FE;
+  background-color: #fff;
+  border: 1px solid #7875FE;
+  transition: 300ms;
+}
+.sketchbook .sketchbook__card button:hover {
+  background-color: #7875FE;
+  color: #fff;
+}
+
 /*# sourceMappingURL=style.css.map */
