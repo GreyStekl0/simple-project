@@ -1,0 +1,38 @@
+.items {
+  margin-top: 90px;
+  padding-bottom: 90px;
+}
+
+.items__card {
+  .items__card-img{
+    padding-bottom: 20px;
+  }
+  h2 {
+    font-size: 30px;
+    padding-bottom: 8px;
+  }
+  .circulation {
+    color: #B5B5BD;
+    font-size: 14px;
+    padding-bottom: 10px;
+  }
+  .items__card-text {
+    padding-bottom: 20px;
+  }
+  button {
+    padding: 0;
+    border: none;
+    color: #7875FE;
+    fill: currentColor;
+    background-color: #FFF;
+    font-size: 20px;
+    transition: 300ms;
+    svg{
+      fill: #7875FE;
+    }
+    &:hover{
+      color: #4946B4;
+    }
+
+  }
+}
