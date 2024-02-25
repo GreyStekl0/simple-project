@@ -1,7 +1,42 @@
 <script setup>
-import { defineProps, defineEmits } from 'vue';
+import { defineProps, defineEmits, ref, onMounted, onUnmounted } from 'vue';
 const props = defineProps(['show']);
 const emit = defineEmits(['close']);
+
+let name = ref('');
+let email = ref('');
+let password = ref('');
+let showSuccessModal = ref(false);
+
+const closeSuccessModal = () => {
+  showSuccessModal.value = false;
+  document.body.removeEventListener('click', closeSuccessModal);
+};
+onMounted(() => {
+  if (showSuccessModal.value) {
+    document.body.addEventListener('click', closeSuccessModal);
+  }
+});
+
+onUnmounted(() => {
+  document.body.removeEventListener('click', closeSuccessModal);
+});
+
+const onSubmit = () => {
+  // Очистите поля формы
+  name.value = '';
+  email.value = '';
+  password.value = '';
+
+  // Показать модальное окно об успешной регистрации
+  showSuccessModal.value = true;
+
+  // Добавить обработчик события click на body
+  document.body.addEventListener('click', closeSuccessModal);
+
+  // Закрыть форму регистрации
+  emit('close');
+};
 </script>
 
 <template>
@@ -40,6 +75,9 @@ const emit = defineEmits(['close']);
       </div>
     </div>
   </section>
+  <div class="modal" v-show="showSuccessModal">
+    <p>Регистрация успешно проведена!</p>
+  </div>
 </template>
 
 <style scoped lang="scss">
