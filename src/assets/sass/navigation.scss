@@ -7,6 +7,8 @@ nav {
   border-bottom: 1px solid #DDDDDD;
 
 
+
+
   .navigation__wrapp {
     display: flex;
     justify-content: space-between;
@@ -16,6 +18,17 @@ nav {
       gap: 60px;
       color: $title;
       font-size: 20px;
+
+
+      a{
+        text-decoration: none;
+        color: $text;
+        transition: 300ms;
+        &:hover {
+          color: #7875FE;
+        }
+
+      }
 
       .navigation__list-box {
         display: flex;

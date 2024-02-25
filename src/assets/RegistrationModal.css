@@ -1,0 +1,24 @@
+.registration {
+  padding-top: 30px;
+}
+.registration .registration__text h2 {
+  padding-bottom: 10px;
+}
+.registration input {
+  margin-right: 10px;
+  border: 1px solid #D9E2EB;
+}
+.registration button {
+  padding: 3px 37px;
+  font-size: 16px;
+  color: #7875FE;
+  background-color: #fff;
+  border: 1px solid #7875FE;
+  transition: 300ms;
+}
+.registration button:hover {
+  background-color: #7875FE;
+  color: #fff;
+}
+
+/*# sourceMappingURL=RegistrationModal.css.map */

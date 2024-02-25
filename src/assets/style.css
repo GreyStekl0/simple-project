@@ -47,6 +47,14 @@ nav {
   color: #4C5866;
   font-size: 20px;
 }
+.navigation .navigation__wrapp .navigation__list a {
+  text-decoration: none;
+  color: #85859B;
+  transition: 300ms;
+}
+.navigation .navigation__wrapp .navigation__list a:hover {
+  color: #7875FE;
+}
 .navigation .navigation__wrapp .navigation__list .navigation__list-box {
   display: flex;
   gap: 30px;
