@@ -1,0 +1,12 @@
+.partners {
+background-color: $backround;
+  padding: 90px 0;
+}
+
+.partners__card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #c4c4c4;
+  height: 135px;
+}

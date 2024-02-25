@@ -24,11 +24,6 @@ body {
   color: $text;
 }
 
-.container, .container-fluid {
-  padding-left: 100px;
-  padding-right: 110px;
-}
-
-.button {
-
+.container {
+  max-width: 1110px;
 }

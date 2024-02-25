@@ -24,9 +24,8 @@ body {
   color: #85859B;
 }
 
-.container, .container-fluid {
-  padding-left: 100px;
-  padding-right: 110px;
+.container {
+  max-width: 1110px;
 }
 
 nav {
@@ -166,6 +165,19 @@ span {
 }
 .items__card button:hover {
   color: #4946B4;
+}
+
+.partners {
+  background-color: #EBEBEB;
+  padding: 90px 0;
+}
+
+.partners__card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #c4c4c4;
+  height: 135px;
 }
 
 /*# sourceMappingURL=style.css.map */

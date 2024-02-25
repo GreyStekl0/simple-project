@@ -7,15 +7,15 @@
     <div class="container">
       <div class="row">
         <div class="ver1 col-4">
-          <span> v.1 </span> <br>
+          <span> V.1 </span> <br>
           Результат вашего обучения
         </div>
         <div class="ver2 col-4">
-          <span> v.2 </span> <br>
+          <span> V.2 </span> <br>
           Результат вашего обучения
         </div>
         <div class="ver3 col-4">
-          <span> v.3 </span> <br>
+          <span> V.3 </span> <br>
           Результат вашего обучения
         </div>
         <div class="ver4 col-8">
