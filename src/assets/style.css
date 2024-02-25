@@ -206,4 +206,34 @@ span {
   color: #fff;
 }
 
+footer {
+  display: flex;
+  background-color: #4C5866;
+}
+
+.footer__line {
+  padding: 3px 0;
+  width: 100%;
+  font-size: 13px;
+  line-height: 15px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #4C5866;
+}
+.footer__line span {
+  color: #bcbcbc;
+}
+
+.footer__wrapp {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__list {
+  display: flex;
+  gap: 30px;
+}
+
 /*# sourceMappingURL=style.css.map */

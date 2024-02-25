@@ -5,6 +5,7 @@ import VWhiteness from "@/components/VWhiteness.vue";
 import VItems from "@/components/VItems.vue";
 import VPartners from "@/components/VPartners.vue";
 import VSketchbook from "@/components/VSketchbook.vue";
+import VFooter from "@/components/VFooter.vue";
 </script>
 
 <template>
@@ -16,6 +17,7 @@ import VSketchbook from "@/components/VSketchbook.vue";
     <v-partners />
     <v-sketchbook />
   </main>
+  <v-footer />
 </template>
 
 <style scoped>
