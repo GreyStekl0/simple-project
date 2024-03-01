@@ -1,3 +1,10 @@
+:root {
+  --theme-text: #85859B;
+  --theme-title: #4C5866;
+  --theme-backround: #fff;
+  --theme-grey-backround: #EBEBEB;
+}
+
 *,
 *::before,
 *::after {
@@ -9,7 +16,7 @@ body, p, h1, h2, h3, h4, h5, ul {
 }
 
 h1, h2 {
-  color: #4C5866;
+  color: var(--theme-title);
 }
 
 ul {
@@ -21,7 +28,8 @@ body {
   font-family: Roboto, sans-serif;
   font-size: 18px;
   line-height: 1.5;
-  color: #85859B;
+  color: var(--theme-text);
+  background-color: var(--theme-backround);
 }
 
 .container {
@@ -44,12 +52,12 @@ nav {
 .navigation .navigation__wrapp .navigation__list {
   display: flex;
   gap: 60px;
-  color: #4C5866;
+  color: var(--theme-title);
   font-size: 20px;
 }
 .navigation .navigation__wrapp .navigation__list a {
   text-decoration: none;
-  color: #85859B;
+  color: var(--theme-text);
   transition: 300ms;
 }
 .navigation .navigation__wrapp .navigation__list a:hover {
@@ -59,6 +67,10 @@ nav {
   display: flex;
   gap: 30px;
 }
+.navigation .navigation__wrapp .navigation__list .navigation__list-box .navigation__list-box-theme img {
+  height: 35px;
+  width: 35px;
+}
 
 .paper .roll {
   padding-top: 60px;
@@ -67,7 +79,7 @@ nav {
   padding-top: 130px;
 }
 .paper .information h1 {
-  color: #4C5866;
+  color: var(--theme-title);
   font-size: 60px;
   line-height: 1;
 }
@@ -90,7 +102,7 @@ nav {
 
 .whiteness {
   padding-top: 90px;
-  background-color: #EBEBEB;
+  background-color: var(--theme-grey-backround);
   padding-bottom: 90px;
 }
 
@@ -122,7 +134,7 @@ nav {
 }
 
 span {
-  color: #4C5866;
+  color: var(--theme-title);
 }
 
 .ver4 {
@@ -176,7 +188,7 @@ span {
 }
 
 .partners {
-  background-color: #EBEBEB;
+  background-color: var(--theme-grey-backround);
   padding: 90px 0;
 }
 

@@ -11,6 +11,10 @@ let showSuccessModal = ref(false);
 const closeSuccessModal = () => {
   showSuccessModal.value = false;
   document.body.removeEventListener('click', closeSuccessModal);
+
+  name.value = '';
+  email.value = '';
+  password.value = '';
 };
 onMounted(() => {
   if (showSuccessModal.value) {
@@ -23,18 +27,8 @@ onUnmounted(() => {
 });
 
 const onSubmit = () => {
-  // Очистите поля формы
-  name.value = '';
-  email.value = '';
-  password.value = '';
-
-  // Показать модальное окно об успешной регистрации
   showSuccessModal.value = true;
-
-  // Добавить обработчик события click на body
   document.body.addEventListener('click', closeSuccessModal);
-
-  // Закрыть форму регистрации
   emit('close');
 };
 </script>
@@ -54,6 +48,7 @@ const onSubmit = () => {
             <label class="mb-3">
               <input type="text"
                      placeholder="Имя"
+                     pattern="[A-Za-zА-Яа-яЁё]+"
                      title="Введите ваше имя"
                      v-model="name" required>
             </label>
@@ -76,7 +71,7 @@ const onSubmit = () => {
     </div>
   </section>
   <div class="modal" v-show="showSuccessModal">
-    <p>Регистрация успешно проведена!</p>
+    <p>Регистрация успешно проведена, {{ name }}!</p>
   </div>
 </template>
 

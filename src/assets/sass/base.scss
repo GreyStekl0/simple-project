@@ -9,7 +9,7 @@ body,p,h1,h2,h3,h4,h5,ul {
 }
 
 h1,h2 {
-  color: $title
+  color: var(--theme-title);
 }
 
 ul {
@@ -21,7 +21,8 @@ body {
   font-family: Roboto, sans-serif;
   font-size: 18px;
   line-height: 1.5;
-  color: $text;
+  color: var(--theme-text);
+  background-color: var(--theme-backround);
 }
 
 .container {

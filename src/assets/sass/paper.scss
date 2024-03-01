@@ -6,7 +6,7 @@
   .information {
     padding-top: 130px;
     h1 {
-      color: $title;
+      color: var(--theme-title);
       font-size: 60px;
       line-height: 1;
     }

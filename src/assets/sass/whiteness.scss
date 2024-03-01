@@ -1,6 +1,6 @@
 .whiteness {
   padding-top: 90px;
-  background-color: $backround;
+  background-color: var(--theme-grey-backround);
   padding-bottom: 90px;
 }
 .ver1 {
@@ -31,7 +31,7 @@
 }
 
 span {
-  color: $title
+  color: var(--theme-title)
 }
 
 .ver4 {
