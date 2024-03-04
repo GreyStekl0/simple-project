@@ -33,10 +33,13 @@
   align-items: center;
   z-index: 9999;
 }
-.modal p {
+.modal pre {
   background-color: #fff;
   padding: 20px;
   border-radius: 5px;
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
 }
 
 /*# sourceMappingURL=RegistrationModal.css.map */

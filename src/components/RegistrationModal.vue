@@ -71,7 +71,10 @@ const onSubmit = () => {
     </div>
   </section>
   <div class="modal" v-show="showSuccessModal">
-    <p>Регистрация успешно проведена, {{ name }}!</p>
+    <pre>Регистрация успешно проведена, {{ name }}!
+Такие данные были вами введены
+Электронная почта: {{email}}
+Пароль: {{password}}</pre>
   </div>
 </template>
 
